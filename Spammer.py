@@ -36,7 +36,7 @@ def baner():
 \nCreator: Faqih ID
 Youtube: Ilangqwer
 Github : github.com/IL4NGQW3R
-==========================================''')
+==========================================""")
 def kata(s):
     for c in s + "\n":
         sys.stdout.write(c)
