@@ -25,4 +25,20 @@ def baner():
       }\033[31;1m.dMMM    .o@^ ^;::---...
     }\033[31;1mdMMMMMMM@^`       `^^^^
    }\033[31;1m YMMMUP^
-     }\033[31;1m^^""")
+     }\033[31;1m^^
+     
+     
+     
+╔╗ ┬─┐┬ ┬┌┬┐┌─┐┬  ╔═╗┌─┐┌─┐┌┬┐┌┬┐┌─┐┬─┐
+╠╩╗├┬┘│ │ │ ├─┤│  ╚═╗├─┘├─┤││││││├┤ ├┬┘
+╚═╝┴└─└─┘ ┴ ┴ ┴┴─┘╚═╝┴  ┴ ┴┴ ┴┴ ┴└─┘┴└─
+\t------------
+\nCreator: Faqih ID
+Youtube: Ilangqwer
+Github : github.com/IL4NGQW3R
+==========================================''')
+def kata(s):
+    for c in s + "\n":
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(1./100)
