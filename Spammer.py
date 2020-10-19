@@ -1,3 +1,12 @@
+bi='\033[34;1m' #biru
+ij='\033[32;1m' #ijo
+pr='\033[35;1m' #purple
+cy='\033[36;1m' #cyan
+me='\033[31;1m' #merah
+pu='\033[37;1m' #putih
+ku='\033[33;1m' #kuning
+or='\033[1;38;5;208m' #Orange
+#kode warna
 import os,sys,time,requests,re,json,random
 from random import randrange as rg
 print ("\033[00m")
@@ -10,33 +19,19 @@ def balik():
     else:
        sys.exit()
 def baner():
-    kata("""}\033[31;1m
-                                              _.oo.
-                   }\033[31;1m_.u[[/;:,.         .odMMMMMM'
-                  }\033[31;1m.o888UU[[[/;:-.  .o@P^    MMM^
-                 }\033[31;1moN88888UU[[[/;::-.        dP^
-                }\033[31;1mdNMMNN888UU[[[/;:--.   .o@P^
-              }\033[31;1m,MMMMMMN888UU[[/;::-. o@^
-               }\033[31;1mNNMMMNN888UU[[[/~.o@P^
-              }\033[31;1m888888888UU[[[/o@^-..
-              }\033[31;1moI8888UU[[[/o@P^:--..
-           }\033[31;1m.@^  YUU[[[/o@^;::---..
-         }\033[31;1moMP     ^/o@P^;:::---..
-      }\033[31;1m.dMMM    .o@^ ^;::---...
-    }\033[31;1mdMMMMMMM@^`       `^^^^
-   }\033[31;1m YMMMUP^
-     }\033[31;1m^^
-     
-     
-     
-╔╗ ┬─┐┬ ┬┌┬┐┌─┐┬  ╔═╗┌─┐┌─┐┌┬┐┌┬┐┌─┐┬─┐
-╠╩╗├┬┘│ │ │ ├─┤│  ╚═╗├─┘├─┤││││││├┤ ├┬┘
-╚═╝┴└─└─┘ ┴ ┴ ┴┴─┘╚═╝┴  ┴ ┴┴ ┴┴ ┴└─┘┴└─
-\t------------
-\nCreator: Faqih ID
-Youtube: Ilangqwer
-Github : github.com/IL4NGQW3R
-==========================================""")
+    kata("""
+\033[31;1m╔═══╦═══╦═══╦═╗╔═╗------------------------------------------
+\033[31;1m║╔═╗║╔═╗║╔═╗║║╚╝║║       \033[33;1mCRATOR : Faizul          |
+\033[31;1m║╚══╣╚═╝║║─║║╔╗╔╗║       \033[33;1mYOUTUBE : Htc Ctr Gaming |
+\033[31;1m╚══╗║╔══╣╚═╝║║║║║║-------------------------------------------
+\033[31;1m║╚═╝║║──║╔═╗║║║║║║
+\033[31;1m╚═══╩╝──╚╝─╚╩╝╚╝╚╝
+                      \033[37;1m╔══╗╔═══╦════╗
+                      \033[37;1m║╔╗║║╔═╗║╔╗╔╗║
+                      \033[37;1m║╚╝╚╣║─║╠╝║║╚╝
+                      \033[37;1m║╔═╗║║─║║─║║
+                      \033[37;1m║╚═╝║╚═╝║─║║
+                      \033[37;1m╚═══╩═══╝─╚╝""")
 def kata(s):
     for c in s + "\n":
         sys.stdout.write(c)
@@ -264,29 +259,44 @@ if __name__=="__main__":
           clear()
           baner()
           hh="+62"
-          no=input("[+]Phone Number: ")
+          no=input("[+]NO TARGET ✔: ")
           c=no[1:12]
           w=hh+c 
-          kata("Waiting....!!")
+          kata("SPAM BERJALAN HARAP TUNGGU")
           jenius()
+          kata("pengiriman sukses✔")  
           oyo()
+          kata("pengiriman sukses✔")    
           mapclub()
+          kata("pengiriman sukses✔")  
           call()
-          time.sleep(2)
+          kata("telepon berlangsung✔")
+          time.sleep(4)
           soplai()
+          kata("pengiriman sukses✔")
           depop()
+          kata("pengiriman sukses✔")
           rupa()
+          kata("pengiriman sukses✔")
           matahari()
+          kata("pengiriman sukses✔")
           socil()
+          kata("pengiriman sukses✔")
           indo()
+          kata("pengiriman sukses✔")
           olx()
+          kata("pengiriman sukses✔")
           call2()
-          time.sleep(2)
+          kata("SEDANG MELAKUKAN PANGILAN")
+          time.sleep(4)
           alodoc()
+          kata("pengiriman sukses✔")
           klik()
+          kata("pengiriman sukses✔")
           wa2()
-          time.sleep(2)
-          kata("[•]Done..")
+          kata("pengiriman sukses✔")
+          time.sleep(4)
+          kata("[•]Selesai..")
           balik()
         except KeyError:
              sys.exit()
